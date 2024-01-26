@@ -19,6 +19,7 @@ namespace WindowsFormsApp1
 
         private void NhutVinhForm_Load(object sender, EventArgs e)
         {
+            // Tao conflict c#
             // NHut Vinh tao form
         }
     }
