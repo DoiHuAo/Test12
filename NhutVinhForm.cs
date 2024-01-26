@@ -19,7 +19,7 @@ namespace WindowsFormsApp1
 
         private void NhutVinhForm_Load(object sender, EventArgs e)
         {
-            // NHut Vinh tao form
+            // NHut Vinh 1 tao form
         }
     }
 }
