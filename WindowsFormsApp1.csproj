@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DaiLongForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DaiLongForm.Designer.cs">
+      <DependentUpon>DaiLongForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DaiLongForm.resx">
+      <DependentUpon>DaiLongForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="NhutVinhForm.resx">
       <DependentUpon>NhutVinhForm.cs</DependentUpon>
     </EmbeddedResource>
